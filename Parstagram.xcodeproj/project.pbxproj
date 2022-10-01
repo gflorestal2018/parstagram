@@ -10,13 +10,17 @@
 		046883C1E6B54F6349CF714C /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9DF84DCC06427A8D71B482 /* Pods_Parstagram_ParstagramUITests.framework */; };
 		1F27E57828E8887800E421B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E57728E8887800E421B0 /* AppDelegate.swift */; };
 		1F27E57A28E8887800E421B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E57928E8887800E421B0 /* SceneDelegate.swift */; };
-		1F27E57C28E8887800E421B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E57B28E8887800E421B0 /* ViewController.swift */; };
 		1F27E57F28E8887800E421B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F27E57D28E8887800E421B0 /* Main.storyboard */; };
 		1F27E58128E8887800E421B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F27E58028E8887800E421B0 /* Assets.xcassets */; };
 		1F27E58428E8887800E421B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F27E58228E8887800E421B0 /* LaunchScreen.storyboard */; };
 		1F27E58F28E8887900E421B0 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E58E28E8887900E421B0 /* ParstagramTests.swift */; };
 		1F27E59928E8887900E421B0 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E59828E8887900E421B0 /* ParstagramUITests.swift */; };
 		1F27E59B28E8887900E421B0 /* ParstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E59A28E8887900E421B0 /* ParstagramUITestsLaunchTests.swift */; };
+		1F27E5A828E88FC500E421B0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E5A728E88FC500E421B0 /* LoginViewController.swift */; };
+		1F27E5AA28E88FEA00E421B0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E5A928E88FEA00E421B0 /* FeedViewController.swift */; };
+		1F27E5AC28E8A44600E421B0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27E5AB28E8A44600E421B0 /* CameraViewController.swift */; };
+		1F27E5AF28E8AB4A00E421B0 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1F27E5AE28E8AB4A00E421B0 /* AlamofireImage */; };
+		1F27E5B228E8AB7E00E421B0 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1F27E5B128E8AB7E00E421B0 /* AlamofireImage */; };
 		976BBE421FA043388C76F8E3 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A1CAE47BC6DA24B8E9A1F1 /* Pods_Parstagram.framework */; };
 		F359C5D05B5E598AD6B32F1A /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF3624B7051E97FB283A4D3 /* Pods_ParstagramTests.framework */; };
 /* End PBXBuildFile section */
@@ -43,7 +47,6 @@
 		1F27E57428E8887800E421B0 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F27E57728E8887800E421B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F27E57928E8887800E421B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F27E57B28E8887800E421B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F27E57E28E8887800E421B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F27E58028E8887800E421B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F27E58328E8887800E421B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		1F27E59428E8887900E421B0 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F27E59828E8887900E421B0 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		1F27E59A28E8887900E421B0 /* ParstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F27E5A728E88FC500E421B0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F27E5A928E88FEA00E421B0 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1F27E5AB28E8A44600E421B0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2B9DF84DCC06427A8D71B482 /* Pods_Parstagram_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D63F5F31B718EC4E817228E /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 		3EF3624B7051E97FB283A4D3 /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +75,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				976BBE421FA043388C76F8E3 /* Pods_Parstagram.framework in Frameworks */,
+				1F27E5AF28E8AB4A00E421B0 /* AlamofireImage in Frameworks */,
+				1F27E5B228E8AB7E00E421B0 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,11 +126,13 @@
 			children = (
 				1F27E57728E8887800E421B0 /* AppDelegate.swift */,
 				1F27E57928E8887800E421B0 /* SceneDelegate.swift */,
-				1F27E57B28E8887800E421B0 /* ViewController.swift */,
 				1F27E57D28E8887800E421B0 /* Main.storyboard */,
+				1F27E5A728E88FC500E421B0 /* LoginViewController.swift */,
+				1F27E5A928E88FEA00E421B0 /* FeedViewController.swift */,
 				1F27E58028E8887800E421B0 /* Assets.xcassets */,
 				1F27E58228E8887800E421B0 /* LaunchScreen.storyboard */,
 				1F27E58528E8887800E421B0 /* Info.plist */,
+				1F27E5AB28E8A44600E421B0 /* CameraViewController.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -154,7 +164,6 @@
 				4EC0216C05E8C2C29905F2DD /* Pods-ParstagramTests.debug.xcconfig */,
 				D52ECC6230585FA155572864 /* Pods-ParstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +195,10 @@
 			dependencies = (
 			);
 			name = Parstagram;
+			packageProductDependencies = (
+				1F27E5AE28E8AB4A00E421B0 /* AlamofireImage */,
+				1F27E5B128E8AB7E00E421B0 /* AlamofireImage */,
+			);
 			productName = Parstagram;
 			productReference = 1F27E57428E8887800E421B0 /* Parstagram.app */;
 			productType = "com.apple.product-type.application";
@@ -261,6 +274,10 @@
 				Base,
 			);
 			mainGroup = 1F27E56B28E8887700E421B0;
+			packageReferences = (
+				1F27E5AD28E8AB4A00E421B0 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				1F27E5B028E8AB7E00E421B0 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 1F27E57528E8887800E421B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -407,8 +424,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F27E57C28E8887800E421B0 /* ViewController.swift in Sources */,
+				1F27E5A828E88FC500E421B0 /* LoginViewController.swift in Sources */,
+				1F27E5AC28E8A44600E421B0 /* CameraViewController.swift in Sources */,
 				1F27E57828E8887800E421B0 /* AppDelegate.swift in Sources */,
+				1F27E5AA28E88FEA00E421B0 /* FeedViewController.swift in Sources */,
 				1F27E57A28E8887800E421B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -751,6 +770,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F27E5AD28E8AB4A00E421B0 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		1F27E5B028E8AB7E00E421B0 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F27E5AE28E8AB4A00E421B0 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F27E5AD28E8AB4A00E421B0 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		1F27E5B128E8AB7E00E421B0 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F27E5AD28E8AB4A00E421B0 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F27E56C28E8887700E421B0 /* Project object */;
 }
